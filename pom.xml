@@ -44,7 +44,7 @@
 				<version>0.4.13</version>
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-					<dockerHost>http://192.168.1.251:7777</dockerHost>
+					<dockerHost>http://192.168.1.176:7777</dockerHost>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
